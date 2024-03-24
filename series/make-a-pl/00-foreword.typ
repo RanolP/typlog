@@ -36,8 +36,8 @@
   stroke: embossed(color.rgb("#d2d2d2")).stroke,
   column-gutter: 8pt,
   row-gutter: 8pt,
-  [*A*=*B* \ ```typlog_regexp /([a-zA-Z]+)\s*=\s*([0-9]+)/```],
-  [변수 이름 *A*에 정수형 값*B*를 대입한다\ *B*의 범위는 $plus.minus 1000$을 넘지 않는다],
+  [*A* = *B* \ ```typlog_regexp /([a-zA-Z]+)\s*=\s*([0-9]+)/```],
+  [변수 이름 *A*에 정수형 값 *B*를 대입한다\ *B*의 범위는 $plus.minus 1000$을 넘지 않는다],
   [putchar *A* \ ```typlog_regexp /putchar\s*([a-zA-Z]+)/```],
   [변수 *A*에 담긴 값에 해당하는 ASCII 문자를 출력한다],
 )
